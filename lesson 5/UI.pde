@@ -10,7 +10,7 @@ void UI() {
 
   bar.addSlider("sectionSideNum", 3, 16, 5, canvasLeftCornerX, canvasLeftCornerY, barSize, barHeight).setLabel("断面边数");
   bar.addSlider("sideDivision", 1, 50, 40, canvasLeftCornerX, canvasLeftCornerY+barInterval, barSize, barHeight).setLabel("断面边细分段数");
-  bar.addSlider("cylinderHeightSection", 3, 200, 100, canvasLeftCornerX, canvasLeftCornerY+barInterval*2, barSize, barHeight).setLabel("柱体高度分段数");
+  bar.addSlider("cylinderHeightSection", 3, 200, 200, canvasLeftCornerX, canvasLeftCornerY+barInterval*2, barSize, barHeight).setLabel("柱体高度分段数");
   bar.addSlider("cylinderSectionHeight", 0, 100, 10, canvasLeftCornerX, canvasLeftCornerY+barInterval*3, barSize, barHeight).setLabel("柱体分段高度");
   bar.addSlider("sectionBaseRadius", 0, 500, 100, canvasLeftCornerX, canvasLeftCornerY+barInterval*4, barSize, barHeight).setLabel("柱体底面半径");
   bar.addSlider("colourRed", 0, 255, 255, canvasLeftCornerX, canvasLeftCornerY+barInterval*5, barSize, barHeight).setLabel("RGB颜色 R");
