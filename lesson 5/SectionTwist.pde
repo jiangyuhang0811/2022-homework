@@ -3,7 +3,7 @@ import peasy.*;
 
 int sectionSideNum = 5;
 int sideDivision = 40;
-int cylinderHeightSection = 100;
+int cylinderHeightSection = 200;
 int cylinderSectionHeight = 10;
 int sectionBaseRadius = 100;
 
